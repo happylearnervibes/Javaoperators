@@ -26,7 +26,32 @@ public class OperatorsArithmetic {
         System.out.println(21.2345/2.3); //if one is double,then it gives double
         System.out.println(21.3f/2); //if one is float,then it gives float
         //System.out.println(21/0); // artithmetic exception
-        System.out.println(21.6f/0);
+        System.out.println(21.6f/0);//infinity
+        System.out.println(-21.6f/0);// -infinity
+        System.out.println(21.6f%0);//NaN
+        System.out.println(-21.6f%0);//NaN
+        System.out.println(21.6666/0);//infinity
+        System.out.println(-21.6666/0); // -infinty
+        System.out.println(21.6666%0);//NaN
+        System.out.println(-21.6666%0);//NaN
+        System.out.println(21/0.0f);//infinity
+        System.out.println(21%0.0f);//NaN
+       // System.out.println(0/0); // arithmetic exception
+        System.out.println(0.0f/0.0f); // Not a Number
+        System.out.println(0.0000/0.0000);//Not a Number
+        System.out.println(0.0f%0.0f); // Not a Number
+        System.out.println(0.0000%0.0000);//NaN
+        System.out.println(Float.POSITIVE_INFINITY/2);
+        System.out.println(2/Float.POSITIVE_INFINITY);
+        // unary operator+or - promotes byte,short,char to int
+        byte num=5;
+        byte num1=6;
+       // num=+num1; //right side becomes int
+       // num=-num1; // right side becomes int
+
+
+
+
 
 
 
